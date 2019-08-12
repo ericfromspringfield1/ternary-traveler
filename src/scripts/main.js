@@ -1,5 +1,13 @@
-const message = "Your Webpack application is set up and ready to go. Please start writing code."
+import contactList from "./src/scripts/contactList"
+import contactForm from "./src/scripts/contactForm"
+
+
+const message = "Contact List"
 
 document.querySelector("#container").innerHTML = `<h1>${message}</h1>`
 
-console.log(message)
+console.log(message) 
+
+
+
+
