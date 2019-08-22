@@ -1,24 +1,75 @@
 {
-  "posts": [
+  "places": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Italy",
+      "visaRequired": false
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Switzerland",
+      "visaRequired": true
+    },
+    {
+      "id": 3,
+      "name": "Bon Aqua",
+      "visaRequired": false
     }
   ],
-  "comments": [
+  "interests": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "placeId": 1,
+      "name": "Authentic Restaurant",
+      "description": "Something like a Fazoli's or a Sbarro",
+      "cost": "$15 on Groupon if you use the promo code U CANT HANDLE THE TRUTHY",
+      "review": ""
+    },
+    {
+      "id": 2,
+      "placeId": 3,
+      "name": "Go West",
+      "description": "I've always wanted to see what's west of Dickson, TN",
+      "cost": "$15 on Groupon if you use the promo code U CANT HANDLE THE TRUTHY",
+      "review": ""
+    },
+    {
+      "id": 3,
+      "placeId": 2,
+      "name": "Cheese Shoppe",
+      "description": "I only eat cheese with holes in it",
+      "cost": "$15 on Groupon if you use the promo code U CANT HANDLE THE TRUTHY",
+      "review": ""
+    },
+    {
+      "interestName": "Wal-Mart",
+      "userId": null,
+      "id": 4
+    },
+    {
+      "interestName": "Wal-Mart",
+      "userId": null,
+      "id": 5
+    },
+    {
+      "interestName": "Walmarks",
+      "userId": null,
+      "id": 6
+    },
+    {
+      "interestName": "d",
+      "placeId": null,
+      "id": 7
+    },
+    {
+      "interestName": "d",
+      "placeId": null,
+      "id": 8
+    },
+    {
+      "interestName": "d",
+      "placeId": null,
+      "id": 9
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
